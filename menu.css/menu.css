@@ -1,0 +1,54 @@
+.imagen_1{
+    width: 30rem;
+    border-radius: 2rem;
+    border-radius: 10% ;
+}
+
+.imagen_2{
+    border-radius: 2rem;
+    width: 30rem;
+
+}
+.imagen_3{
+    border-radius: 2rem;
+    width: 30rem;
+}
+
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.contenido_article{
+    background-color: #e5e8e8;
+    text-align: center;
+}
+
+button{
+    width: 90%;
+    color: white;
+    background-color: #07e60a;
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* CSS DEL EJERCICIO 6 */
+.centrar-texto{
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    margin-left: 6rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
